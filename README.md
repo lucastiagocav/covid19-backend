@@ -1,3 +1,6 @@
-# Strapi application
+# Como executar o projeto
 
-A quick description of your strapi application
+npm install -g strapi
+
+strapi develop
+
