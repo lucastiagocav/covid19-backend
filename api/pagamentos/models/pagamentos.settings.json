@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pagamentos",
+  "info": {
+    "name": "pagamentos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "transactionId": {
+      "type": "uid"
+    },
+    "status": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "decimal"
+    }
+  }
+}

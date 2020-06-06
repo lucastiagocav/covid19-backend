@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagamentos",
+      "handler": "pagamentos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pagamentos/count",
+      "handler": "pagamentos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pagamentos/:id",
+      "handler": "pagamentos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pagamentos",
+      "handler": "pagamentos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagamentos/:id",
+      "handler": "pagamentos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagamentos/:id",
+      "handler": "pagamentos.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/covid-data",
+      "handler": "pagamentos.getCovidData",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,2 +1,3 @@
-# covid19-backend
-Projeto backend consumindo serviços externos do com relatórios do covid e pagseguro.
+# Strapi application
+
+A quick description of your strapi application
